@@ -29,7 +29,7 @@ require "rbconfig"
 module Azure::Storage::Blob
   module Default
     # Default REST service (STG) version number
-    STG_VERSION = "2017-11-09"
+    STG_VERSION = "2018-11-09"
 
     # The number of default concurrent requests for parallel operation.
     DEFAULT_PARALLEL_OPERATION_THREAD_COUNT = 1
@@ -118,6 +118,9 @@ module Azure::Storage::Blob
 
     # The size of a page, in bytes, in a page blob.
     PAGE_SIZE = 512
+
+    # The maximum validity of user delegation SAS (7 days from the current time).
+    MAX_USER_DELEGATION_KEY_SECONDS = 60 * 60 * 24 * 7
 
     # Resource types.
     module ResourceTypes

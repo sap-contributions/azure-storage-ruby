@@ -1,3 +1,18 @@
+2021.12 - version 2.0.3
+* Lifted Ruby-version-based restrictions on Nokogiri version.
+
+2021.10 - version 2.0.2
+* Allowed to use any version 1.x of Nokogiri for Ruby version later than or equal to 2.5.0.
+* Added access tier information and creation time of blob in response.
+
+2020.8 - version 2.0.1
+* Bumped up Nokogiri version to 1.11.0.rc2 for Ruby version later than or equal to 2.4.0.
+
+2020.3 - version 2.0.0
+* This module now supports Ruby versions to 2.3 through 2.7.
+* Service version is upgraded to 2018-11-09.
+* Add support for generating user delegation shared access signatures.
+
 2018.11 - version 1.1.0
 * Added the support for sending a request with a bearer token.
 
